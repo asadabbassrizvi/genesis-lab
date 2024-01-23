@@ -26,7 +26,7 @@ function List({ List }) {
               <li>Domain : {item.domains[0]}</li>
               <li>Country Code : {item.alpha_two_code}</li>
               <li>
-                <a href={item.web_pages[0]} target="_blank">
+                <a href={item.web_pages[0]} target="_blank" rel="noreferrer">
                   {" "}
                   Web Sites : {item.web_pages[0]}
                 </a>
